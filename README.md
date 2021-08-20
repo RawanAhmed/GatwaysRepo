@@ -57,14 +57,14 @@ body:{
     "status" : "online"
 }
 
-![Alt text](request_screenshots_from_postman/create_device_1.png?raw=true "Image 1")
-![Alt text](request_screenshots_from_postman/create_device_with_repeated_uid_2.png?raw=true "Image 2)
-![Alt text](request_screenshots_from_postman/create_device_with_wrong_status_3.png?raw=true "Image 3)
+![Alt text](request_screenshots_from_postman/request_screenshots_from_postman/create_device_1.png?raw=true "Image 1")
+![Alt text](request_screenshots_from_postman/request_screenshots_from_postman/create_device_with_repeated_uid_2.png?raw=true "Image 2)
+![Alt text](request_screenshots_from_postman/request_screenshots_from_postman/create_device_with_wrong_status_3.png?raw=true "Image 3)
 
 ## Get All Devices Endpoint:
 GET http://localhost:8080/Gateways-API/devices/{gatewayId}/getdevices
 
-![Alt text](request_screenshots_from_postman/get_all_devices_1.png?raw=true "Image 4")
+![Alt text](request_screenshots_from_postman/request_screenshots_from_postman/get_all_devices_1.png?raw=true "Image 4")
 
 ## Update Device Endpoint:
 
@@ -74,14 +74,14 @@ body{
     "status": "online"
 }
 
-![Alt text](request_screenshots_from_postman/update_Device.png?raw=true "Image 5")
+![Alt text](request_screenshots_from_postman/request_screenshots_from_postman/update_Device.png?raw=true "Image 5")
 
 
 ## Delete Device Endpoint:
 
 DELETE  http://localhost:8080/Gateways-API/devices/{gatewayId}/deletedevice/{deviceId}
 
-![Alt text](request_screenshots_from_postman/delete_device.png?raw=true "Image 6")
+![Alt text](request_screenshots_from_postman/request_screenshots_from_postman/delete_device.png?raw=true "Image 6")
 
 ### Gateways Endpoints:
 ## Create Gateway:
@@ -93,16 +93,16 @@ body{
     "ipv4Address" : "152.109.212"
 }
 
-![Alt text](request_screenshots_from_postman/create_gateway_1.png?raw=true "Image 7")
-![Alt text](request_screenshots_from_postman/create_gateway_with_repeated_serial_3.png?raw=true "Image 8")
-![Alt text](request_screenshots_from_postman/create_gateway_with_wrong_ip_2.png?raw=true "Image 9")
+![Alt text](request_screenshots_from_postman/request_screenshots_from_postman/create_gateway_1.png?raw=true "Image 7")
+![Alt text](request_screenshots_from_postman/request_screenshots_from_postman/create_gateway_with_repeated_serial_3.png?raw=true "Image 8")
+![Alt text](request_screenshots_from_postman/request_screenshots_from_postman/create_gateway_with_wrong_ip_2.png?raw=true "Image 9")
 
 
 ## Get All Gateways:
 
 GET  http://localhost:8080/Gateways-API/gateways/getall
 
-![Alt text](request_screenshots_from_postman/get_all_gateways_1.png?raw=true "Image 10")
+![Alt text](request_screenshots_from_postman/request_screenshots_from_postman/get_all_gateways_1.png?raw=true "Image 10")
 
 ## Update Gateway :
 POST http://localhost:8080/Gateways-API/gateways/update/{gatewayId}
@@ -110,13 +110,13 @@ body{
     "serialNumber": "2021"
 }
 
-![Alt text](request_screenshots_from_postman/update_gateway.png?raw=true "Image 11")
-![Alt text](request_screenshots_from_postman/update_gateway_gateway_not_found.png?raw=true "Image 12")
+![Alt text](request_screenshots_from_postman/request_screenshots_from_postman/update_gateway.png?raw=true "Image 11")
+![Alt text](request_screenshots_from_postman/request_screenshots_from_postman/update_gateway_gateway_not_found.png?raw=true "Image 12")
 
 ## Delete Gateway :
 DELETE http://localhost:8080/Gateways-API/gateways/delete/{gatewayId}
 
-![Alt text](request_screenshots_from_postman/delete_gateway.png?raw=true "Image 13")
+![Alt text](request_screenshots_from_postman/request_screenshots_from_postman/delete_gateway.png?raw=true "Image 13")
 
 
 
